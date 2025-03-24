@@ -93,7 +93,7 @@ Messages are delivered to each unique listener **no more than once every 60 seco
 
 ---
 
-## 🧠 Design Notes
+## Design Notes
 
 - The SDK is designed to **respect the server’s delivery constraints**, so you don’t have to worry about throttling or duplicate filtering.
 - `listen()` polls the API every few seconds and processes one message at a time, per listener.
