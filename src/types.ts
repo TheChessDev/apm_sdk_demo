@@ -1,6 +1,8 @@
 export type Message = {
   id: number;
   name: string;
+  createdAt: Date;
+  topic: string;
 };
 
 export interface SDK {
