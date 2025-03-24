@@ -23,7 +23,7 @@
   "author": "Julian Castano <julian@castano.app>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.8.2",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
