@@ -1,0 +1,33 @@
+{
+  "name": "apm-sdk-demo",
+  "version": "1.0.0",
+  "description": "SDK for interacting with the Messaging API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheChessDev/apm-sdk.git"
+  },
+  "keywords": [
+    "sdk",
+    "messaging",
+    "api",
+    "typescript"
+  ],
+  "author": "Julian Castano <julian@castano.app>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@types/node": "^18.0.0",
+    "jest": "^28.1.3",
+    "@types/jest": "^28.1.3",
+    "ts-jest": "^28.0.5"
+  }
+}
