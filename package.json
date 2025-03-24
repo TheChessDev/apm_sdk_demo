@@ -1,6 +1,6 @@
 {
   "name": "@chessdev/apm-sdk-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SDK for interacting with the Messaging API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
