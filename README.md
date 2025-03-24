@@ -1,6 +1,6 @@
 # APM SDK
 
-The APM SDK provides a simple interface for interacting with the [APM Messaging API](https://github.com/TheChessDev/apm-test) from frontend or backend applications.
+The APM SDK provides a simple interface for interacting with the [APM Messaging API](https://github.com/TheChessDev/apm_test) from frontend or backend applications.
 
 It exposes three main methods:
 
@@ -105,6 +105,6 @@ Messages are delivered to each unique listener **no more than once every 60 seco
 
 The SDK is designed to be **fully testable** from frontend or backend apps. For end-to-end testing:
 
-1.  Run the API locally (see [apm-demo-api](https://github.com/TheChessDev/apm-test)).
+1.  Run the API locally (see [apm-demo-api](https://github.com/TheChessDev/apm_test)).
 2.  Use a permanent token for ease of use.
 3.  Call `send`, `list`, and `listen` from your test app or script.
